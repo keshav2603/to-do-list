@@ -1,0 +1,75 @@
+body {
+    background: rgb(6,88,201);
+    background: linear-gradient(124deg, rgba(6,88,201,1) 0%, rgba(202,255,0,1) 0%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+#to-do-container {
+    margin-top: 2rem;
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    background-color: rgba(240, 255, 255, 0.5); 
+    border-radius: 2rem;
+    border: 0.5rem solid white ;
+
+}
+
+#to-do-container h2{
+    margin-top: 2rem;
+    font-size: 3rem;
+    
+}
+
+#to-do-container input{
+    padding: 8px 12px;
+    font-size:1.2rem;
+    height: 3rem;
+    width: 70%;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    border:5px solid white;
+}
+
+#btn{
+    padding: 8px 12px;
+    font-size:1rem;
+    font-weight: bold;
+    color: #fff;
+    height: 3.6rem;
+    width:20% ;
+    background-color: #4caf50;
+    border-radius: 1rem;
+    border: none;
+}
+#btn:hover {
+    background-color: #45a049;
+}
+  
+#task-list {
+    list-style-type: none; /* Remove bullet points from list items */
+}
+#task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    height: 3rem;
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    border: 5px solid white;
+    margin-bottom: 1rem;
+}
+#task-list li input[type="checkbox"] {
+   
+    width: 20px;
+    height: 20px;
+}
